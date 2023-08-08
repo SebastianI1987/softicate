@@ -1,0 +1,8 @@
+<div class="input-container">
+  <input type="text" placeholder="Node Name" [(ngModel)]="nodeName">
+  <input type="text" placeholder="Connected Nodes (comma-separated)" [(ngModel)]="connectedNodes">
+  <button (click)="addNode()">Add Node</button>
+</div>
+<div class="app-container">
+  <div id="mynetwork" style="width: 100%; height: 100%;"></div>
+</div>
